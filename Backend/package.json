@@ -1,0 +1,18 @@
+{
+  "name": "web-socket",
+  "version": "1.0.0",
+  "description": "Web-Socket Demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Mani Prakash",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1"
+  }
+}
